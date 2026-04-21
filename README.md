@@ -9,18 +9,6 @@ A simple React JS application built as a final project, featuring authentication
 - Protected dashboard accessible only after login
 - Navigation between pages using React Router
 - Global auth state managed with `useContext`
-
-## Project Structure
-
-[200~src/
-├── context/
-│   └── UserContext.jsx    # Global auth state
-├── pages/
-│   ├── Login.jsx          # Login form
-│   ├── Inscription.jsx    # Registration form
-│   └── Dashboard.jsx      # User dashboard
-├── App.jsx                # Routes configuration
-└── main.jsx               # Entry point~
 ## Tech Stack
 
 - React JS
