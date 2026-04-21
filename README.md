@@ -1,16 +1,41 @@
-# React + Vite
+# React Authentication App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React JS application built as a final project, featuring authentication, registration, and a user dashboard.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Login page with form validation using `useReducer`
+- Registration page with `useState`
+- Protected dashboard accessible only after login
+- Navigation between pages using React Router
+- Global auth state managed with `useContext`
 
-## React Compiler
+## Project Structure
+git add README.md
+git commit -m "Add README"
+git push
+[200~src/
+├── context/
+│   └── UserContext.jsx    # Global auth state
+├── pages/
+│   ├── Login.jsx          # Login form
+│   ├── Inscription.jsx    # Registration form
+│   └── Dashboard.jsx      # User dashboard
+├── App.jsx                # Routes configuration
+└── main.jsx               # Entry point~
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React JS
+- React Router v6
+- Vite
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Demo Credentials
+
+Use any email and password you set in `Login.jsx`.
