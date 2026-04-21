@@ -11,9 +11,7 @@ A simple React JS application built as a final project, featuring authentication
 - Global auth state managed with `useContext`
 
 ## Project Structure
-git add README.md
-git commit -m "Add README"
-git push
+
 [200~src/
 ├── context/
 │   └── UserContext.jsx    # Global auth state
